@@ -1,0 +1,16 @@
+/**
+ * 可以在css的注释中使用 `@require` 来声明依赖关系
+ * @require ./foo_plus.css
+ */
+.foo {
+  font-size: 12px;
+}
+.foo-title {
+  /* 使用相对路径引用资源 */
+  background: url(imgs/favicon.ico?__inline) no-repeat;
+  padding-left: 30px;
+  font-size: 15px;
+}
+.foo-content {
+  padding: 10px;
+}
