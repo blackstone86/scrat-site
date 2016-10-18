@@ -35,5 +35,10 @@ module.exports = [
         name: 'practice',
         icon: 'lightbulb-o',
         label: '项目实战'
+    },
+    {
+        name: 'foo',
+        icon: 'coffee',
+        label: 'foo模块'
     }
 ];
