@@ -14,6 +14,8 @@ fis.config.set('modules.optimizer.tpl', 'html-minifier');
 fis.config.set('framework.cache', true);
 // 静态资源加载路径模式
 fis.config.set('framework.urlPattern', '/public/c/%s');
+// 定义别名 
+fis.config.set('framework.alias.practice-conf', 'components/pages/practice/conf.js');
 
 //设置url前缀
 fis.config.set('urlPrefix', '/public');
