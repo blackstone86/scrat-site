@@ -1,6 +1,7 @@
 /**
  * 可以在css的注释中使用 `@require` 来声明依赖关系
  * @require ./foo_plus.css
+ * @require foo_plus
  */
 .foo {
   font-size: 12px;
