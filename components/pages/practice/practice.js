@@ -9,6 +9,6 @@ var conf = require('practice-conf');
 exports.getMarkdown = function(){
     var fooHtml = foo.getHTML(); 
     var config = conf.getConf();
-    console.log(config);
+    // console.log(config);
     return __inline('doc.md') + fooHtml;
 };
