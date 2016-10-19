@@ -8,7 +8,7 @@ var icon = __uri('imgs/favicon.ico');
 
 //像nodejs那样导出API
 exports.getHTML = function(){
-    console.log(icon);
-    console.log(iconBase64);
+    // console.log(icon);
+    // console.log(iconBase64);
     return tpl;
 };
